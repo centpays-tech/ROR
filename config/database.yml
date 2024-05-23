@@ -37,18 +37,22 @@ development:
   encoding: unicode
   database: cpdatabase
   pool: 5
-  host: localhost
+  host: cpdb.choygwfvmxrx.us-east-1.rds.amazonaws.com
+  port: 5432
   username: postgres
-  password: 1234
+  password: Centpays2024
+  database: cpdb
 
 test:
   adapter: postgresql
   encoding: unicode
   database: cpdatabase
   pool: 5
-  host: localhost
+  host: cpdb.choygwfvmxrx.us-east-1.rds.amazonaws.com
+  port: 5432
   username: postgres
-  password: 1234
+  password: Centpays2024
+  database: cpdb
 
 staging:
   url: <%= ENV['DATABASE_URL'] %>
