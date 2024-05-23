@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  businesstype_name: MyString
+  status: MyString
+
+two:
+  businesstype_name: MyString
+  status: MyString

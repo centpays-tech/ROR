@@ -1,0 +1,63 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  company_name: MyString
+  username: MyString
+  email: MyString
+  phone_number: 1
+  postal_code: 1
+  country: MyString
+  state: MyString
+  city: MyString
+  street_address: MyString
+  street_address2: MyString
+  industries_id: MyString
+  director_first_name: MyString
+  director_last_name: MyString
+  skype_id: MyString
+  business_type: MyString
+  business_category: MyString
+  business_subcategory: MyString
+  business_registered_on: MyString
+  merchant_pay_in: MyString
+  merchant_pay_out: MyString
+  settlement_charge: 9.99
+  turnover: MyString
+  expected_chargeback_percentage: 9.99
+  website_url: MyString
+  merchant_id: MyString
+  status: MyString
+  last_settled_date: MyString
+  currency: MyString
+  client_id: 1
+
+two:
+  company_name: MyString
+  username: MyString
+  email: MyString
+  phone_number: 1
+  postal_code: 1
+  country: MyString
+  state: MyString
+  city: MyString
+  street_address: MyString
+  street_address2: MyString
+  industries_id: MyString
+  director_first_name: MyString
+  director_last_name: MyString
+  skype_id: MyString
+  business_type: MyString
+  business_category: MyString
+  business_subcategory: MyString
+  business_registered_on: MyString
+  merchant_pay_in: MyString
+  merchant_pay_out: MyString
+  settlement_charge: 9.99
+  turnover: MyString
+  expected_chargeback_percentage: 9.99
+  website_url: MyString
+  merchant_id: MyString
+  status: MyString
+  last_settled_date: MyString
+  currency: MyString
+  client_id: 1
