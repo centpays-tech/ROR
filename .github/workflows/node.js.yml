@@ -21,6 +21,6 @@ jobs:
     - run: sudo rm -rf tmp/cache
     - uses: actions/checkout@v3
     - run: bundle install
-    - run: sudo systemctl daemon-reload
-    - run: sudo systemctl restart rails-app
+    - run: sudo systemctl stop rails-app
+    - run: sudo systemctl start rails-app
    
