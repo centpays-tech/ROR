@@ -35,24 +35,22 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: cpdatabase
   pool: 5
-  host: cpdb.c1mouymeq01b.ap-south-1.rds.amazonaws.com
+  host: cpdatabase.c1mouymeq01b.ap-south-1.rds.amazonaws.com
   port: 5432
   username: postgres
   password: Centpays2024
-  database: cpdb
+  database: cpdatabase
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: cpdatabase
   pool: 5
-  host: cpdb.c1mouymeq01b.ap-south-1.rds.amazonaws.com
+  host: cpdatabase.c1mouymeq01b.ap-south-1.rds.amazonaws.com
   port: 5432
   username: postgres
   password: Centpays2024
-  database: cpdb
+  database: cpdatabase
 
 staging:
   url: <%= ENV['DATABASE_URL'] %>
