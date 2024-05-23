@@ -37,7 +37,7 @@ development:
   encoding: unicode
   database: cpdatabase
   pool: 5
-  host: cpdb.choygwfvmxrx.us-east-1.rds.amazonaws.com
+  host: cpdb.c1mouymeq01b.ap-south-1.rds.amazonaws.com
   port: 5432
   username: postgres
   password: Centpays2024
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: cpdatabase
   pool: 5
-  host: cpdb.choygwfvmxrx.us-east-1.rds.amazonaws.com
+  host: cpdb.c1mouymeq01b.ap-south-1.rds.amazonaws.com
   port: 5432
   username: postgres
   password: Centpays2024
