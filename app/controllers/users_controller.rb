@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
     require 'bcrypt'
     def servertest
-      render json: { message: 'Server is running fine!' }, status: :ok
+      render json: { message: 'Server is running well!' }, status: :ok
   end
   
     def signup
