@@ -3,7 +3,7 @@ require 'rufus-scheduler'
 require_relative '../../app/controllers/live_transaction_tables_controller'
 scheduler = Rufus::Scheduler.new
 
-scheduler.every '1m' do
+scheduler.every '30s' do
   LiveTransactionTablesController.new.getLivedata(nil, nil) 
 end
 
