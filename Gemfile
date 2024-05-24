@@ -27,6 +27,8 @@ gem 'mail'
 
 gem 'jwt'
 
+gem 'whenever', require: false
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
